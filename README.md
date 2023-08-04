@@ -1,1 +1,20 @@
 # colldub.github.io
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Website</title>
+    <script>
+        // JavaScript code goes here
+        function greet() {
+            var name = prompt("What's your name?");
+            var message = "Hello, " + name + "! Welcome to my website!";
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <button onclick="greet()">Click Me</button>
+    <p>This is the new thing ive added</p>
+</body>
+</html>
